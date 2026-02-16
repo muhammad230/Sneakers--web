@@ -1,38 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Sneakers Web</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- NAVBAR -->
     <nav class="navbar">
-        <div class="logo">Sneakers</div>
-        <ul class="menu">
-            <li><a href="#">Collection</a></li>
-            <li><a href="#">Men</a></li>
-            <li><a href="#">Women</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="right">
-            <img src="images/shopping-cart-icon-free-vector.jpg" class="icon" alt="cart icon">
-        </div>
+      <div class="logo">Sneakers</div>
+      <ul class="menu">
+        <li><a href="#">Collection</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="right">
+        <img
+          src="images/shopping-cart-icon-free-vector.jpg"
+          class="icon"
+          alt="cart icon"
+        />
+      </div>
     </nav>
 
     <!-- PRODUCT SECTION -->
     <div class="container">
-        <div class="left">
-            <img src="images/7ecd7b61-ae8b-4eba-93e0-d5b4c4ef7fa0.png" class="main-img" alt="main sneaker">
-        </div>
+      <div class="left">
+        <img
+          src="images/image-product-1.jpg"
+          class="main-img"
+          alt="main sneaker"
+        />
+
+        <!-- ✅ thumbs inside left -->
         <div class="thumbs">
-            <img src="images/thumb1.png" alt="thumb1">
-            <img src="images/thumb2.png" alt="thumb2">
-            <img src="images/thumb3.png" alt="thumb3">
-            <img src="images/thumb4.png" alt="thumb4">
+          <img src="images/image-product-1.jpg" alt="thumb1" />
+          <img src="images/image-product-2.jpg" alt="thumb2" />
+          <img src="images/image-product-3.jpg" alt="thumb3" />
+          <img src="images/image-product-4.jpg" alt="thumb4" />
         </div>
+      </div>
+
+      <div class="right-product">
+        <p class="brand">Sneaker Company</p>
+        <h1 class="product-title">Fall Limited Edition Sneakers</h1>
+
+        <p class="desc">
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole.
+        </p>
+
+        <div class="price-box">
+          <h2>$125.00</h2>
+          <span class="discount">50%</span>
+        </div>
+        <p class="old-price">$250.00</p>
+
+        <div class="cart-box">
+          <div class="qty">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </div>
+
+          <button class="add-btn">Add to Cart</button>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
