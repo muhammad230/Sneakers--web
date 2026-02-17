@@ -24,3 +24,10 @@ minusBtn.addEventListener("click", function() {
     qtyText.innerText = qty;
   }
 });
+
+
+const addBtn = document.querySelector(".add-btn");
+
+addBtn.addEventListener("click", function() {
+  alert(qty + " item(s) added to cart");
+});
